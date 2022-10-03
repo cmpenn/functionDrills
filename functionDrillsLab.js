@@ -210,8 +210,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+function printAllNames(arr){
+  for (i = 0; i < namesArr.length; i++){
+    console.log(arr[i])
+  }
+}
+printAllNames(namesArr)
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
@@ -221,8 +225,17 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+function thatsOdd(num){
+  if(num % 2 === 0){
+    return "That's not odd!"
+  }else{
+    return 'That is odd indeed!'
+  }
+}
+let oddChecker = thatsOdd(5)
+oddChecker = thatsOdd(2)
+oddChecker = thatsOdd(69)
+console.log(oddChecker)
 ////////////////// PROBLEM 14 ////////////////////
 
 /*
